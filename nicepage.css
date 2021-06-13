@@ -34690,16 +34690,17 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
 .u-header {
   background-image: url("images/SecondBlockPartInverted.png");
-  min-height: 761px;
   background-position: 50% 50%;
+  min-height: 851px;
 }
 
 .u-header .u-group-1 {
   background-image: none;
   margin-top: 0;
   margin-bottom: 0;
-  min-height: 77px;
+  min-height: 82px;
   animation-duration: 1000ms;
+  height: auto;
 }
 
 .u-header .u-container-layout-1 {
@@ -34707,51 +34708,36 @@ a.u-link.u-text-hover-grey-90:hover {
   padding-left: 0;
 }
 
-.u-header .u-menu-1 {
-  margin: 21px 171px 0 auto;
-}
-
-.u-header .u-nav-1 {
-  font-size: 1rem;
-  letter-spacing: 0px;
-  font-family: RifficFree-Bold;
-  background-image: none;
-}
-
-.u-header .u-nav-2 {
-  font-size: 1.25rem;
-}
-
 .u-header .u-image-1 {
   width: 282px;
   height: 52px;
-  margin: -45px auto 0 226px;
+  margin: 13px auto 0;
 }
 
 .u-header .u-line-1 {
   height: 9px;
   transform-origin: right center 0px;
-  margin-top: 4px;
+  margin-top: 8px;
   margin-bottom: 0;
 }
 
 .u-header .u-image-2 {
   width: 570px;
   height: 90px;
-  margin: 65px auto 0 calc(((100% - 1140px) / 2) + 285px);
+  margin: 105px auto 0;
 }
 
 .u-header .u-image-3 {
   width: 497px;
   height: 77px;
   animation-duration: 1500ms;
-  margin: 21px auto 0;
+  margin: 32px auto 0;
 }
 
 .u-header .u-image-4 {
   width: 175px;
   height: 140px;
-  margin: -18px auto 0 calc(((100% - 1140px) / 2) + 90px);
+  margin: 15px auto 0 calc(((100% - 1140px) / 2) + 90px);
 }
 
 .u-header .u-image-5 {
@@ -34809,25 +34795,16 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -8px auto 0 calc(((100% - 1140px) / 2) + -618px);
 }
 @media (max-width: 1199px) {
+  .u-header {
+    min-height: 702px;
+  }
+
   .u-header .u-group-1 {
-    min-height: 88px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: 32px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: -44px;
-    margin-left: 99px;
+    height: auto;
   }
 
   .u-header .u-line-1 {
     transform-origin: left center 0px;
-  }
-
-  .u-header .u-image-2 {
-    margin-left: calc(((100% - 940px) / 2) + 285px);
   }
 
   .u-header .u-image-3 {
@@ -34838,7 +34815,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-4 {
     width: 175px;
     height: 139px;
-    margin-top: -19px;
     margin-left: calc(((100% - 940px) / 2) + 90px);
   }
 
@@ -34901,29 +34877,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 991px) {
   .u-header {
-    min-height: 674px;
-  }
-
-  .u-header .u-menu-1 {
-    width: auto;
-    margin-top: 26px;
-    margin-right: 52px;
-  }
-
-  .u-header .u-image-1 {
-    width: 229px;
-    height: 43px;
-    margin-top: -39px;
-    margin-left: 61px;
+    min-height: 393px;
   }
 
   .u-header .u-line-1 {
     transform-origin: right center 0px;
-    margin-top: 13px;
-  }
-
-  .u-header .u-image-2 {
-    margin-left: calc(((100% - 720px) / 2) + 150px);
   }
 
   .u-header .u-image-4 {
@@ -34972,16 +34930,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 767px) {
   .u-header {
-    min-height: 591px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: 22px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: -39px;
-    margin-left: 63px;
+    min-height: 310px;
   }
 
   .u-header .u-line-1 {
@@ -34991,7 +34940,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-2 {
     width: 540px;
     height: 85px;
-    margin-left: calc(((100% - 540px) / 2));
   }
 
   .u-header .u-image-4 {
@@ -35040,22 +34988,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header {
-    min-height: 449px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: 29px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: -37px;
-    margin-left: 69px;
+    min-height: 168px;
   }
 
   .u-header .u-image-2 {
     width: 340px;
     height: 54px;
-    margin-left: calc(((100% - 340px) / 2));
   }
 
   .u-header .u-image-3 {
@@ -35064,7 +35002,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-4 {
-    margin-top: 5px;
     margin-left: calc(((100% - 340px) / 2) + 90px);
   }
 
