@@ -1,4 +1,13 @@
-@font-face {
+.u-section-1 {
+  min-height: 648px;
+  background-image: url("images/Block2Background.png");
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 {
+    background-position: 50% 50%;
+  }
+}@font-face {
   font-family: 'RifficFree-Bold';
   font-style: normal;
   font-weight: 400;
