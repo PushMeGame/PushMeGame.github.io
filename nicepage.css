@@ -34691,7 +34691,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header {
   background-image: url("images/SecondBlockPartInverted.png");
   background-position: 50% 50%;
-  min-height: 851px;
+  min-height: 868px;
 }
 
 .u-header .u-group-1 {
@@ -34788,14 +34788,14 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-line-2 {
-  height: 9px;
+  height: 18px;
   transform-origin: right center 0px;
   width: 2199px;
-  margin: -8px auto 0 calc(((100% - 1140px) / 2) + -618px);
+  margin: -7px auto 0 calc(((100% - 1140px) / 2) + -618px);
 }
 @media (max-width: 1199px) {
   .u-header {
-    min-height: 702px;
+    min-height: 716px;
   }
 
   .u-header .u-line-1 {
@@ -34866,7 +34866,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-line-2 {
     width: 940px;
-    margin-top: -8px;
+    margin-top: -7px;
     margin-left: calc(((100% - 940px) / 2));
   }
 }
